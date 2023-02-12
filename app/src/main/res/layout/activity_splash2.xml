@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:gravity="center_vertical"
+    tools:context=".Splash2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/search_view"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:layout_gravity="center_horizontal"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            />
+
+
+        <Button
+            android:id="@+id/userloginbtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:layout_marginTop="50dp"
+            android:text="USER LOGIN"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/schoolloginbtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:layout_marginTop="30dp"
+            android:text="SCHOOL LOGIN"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create new account"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:textSize="16dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="540dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="72dp"
+        android:src="@drawable/splash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

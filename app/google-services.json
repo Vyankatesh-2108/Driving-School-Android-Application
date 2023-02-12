@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "477930522538",
+    "firebase_url": "https://ahen-ddcda-default-rtdb.firebaseio.com",
+    "project_id": "ahen-ddcda",
+    "storage_bucket": "ahen-ddcda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477930522538:android:ad16d25131e5f825f70dd3",
+        "android_client_info": {
+          "package_name": "com.example.ahendrivingschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477930522538-e0jqgeekh9987ork0kuq0f377h5utomo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb4ha2VXLGInP24gheVNV_qygowYC_EeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477930522538-e0jqgeekh9987ork0kuq0f377h5utomo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

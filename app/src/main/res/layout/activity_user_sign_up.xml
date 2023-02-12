@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserSignUp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-57dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        app:srcCompat="@drawable/go" />
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:fontFamily="serif"
+        android:text="User SingUp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.120000005" />
+
+    <EditText
+        android:id="@+id/u_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <EditText
+        android:id="@+id/u_mail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/u_name"
+        app:layout_constraintStart_toStartOf="@+id/u_name"
+        app:layout_constraintTop_toBottomOf="@+id/u_name" />
+
+    <EditText
+        android:id="@+id/u_mobile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/ic_baseline_mobile_friendly_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Mobile No"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/u_mail"
+        app:layout_constraintStart_toStartOf="@+id/u_mail"
+        app:layout_constraintTop_toBottomOf="@+id/u_mail" />
+
+    <EditText
+        android:id="@+id/u_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/ic_baseline_mobile_friendly_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/u_mobile"
+        app:layout_constraintStart_toStartOf="@+id/u_mobile"
+        app:layout_constraintTop_toBottomOf="@+id/u_mobile" />
+
+    <EditText
+        android:id="@+id/u_aadharcard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/ic_baseline_mobile_friendly_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Aadharcard No"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/u_address"
+        app:layout_constraintStart_toStartOf="@+id/u_address"
+        app:layout_constraintTop_toBottomOf="@+id/u_address" />
+
+
+
+    <EditText
+        android:id="@+id/u_pancard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/ic_baseline_mobile_friendly_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Pancard No"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/u_aadharcard"
+        app:layout_constraintStart_toStartOf="@+id/u_aadharcard"
+        app:layout_constraintTop_toBottomOf="@+id/u_aadharcard" />
+
+
+    <EditText
+        android:id="@+id/u_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/u_pancard"
+        app:layout_constraintStart_toStartOf="@+id/u_pancard"
+        app:layout_constraintTop_toBottomOf="@+id/u_pancard" />
+
+    <EditText
+        android:id="@+id/u_confirmpassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/u_password"
+        app:layout_constraintStart_toStartOf="@+id/u_password"
+        app:layout_constraintTop_toBottomOf="@+id/u_password" />
+
+    <EditText
+        android:id="@+id/u_birth"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_shape"
+        android:ems="10"
+        android:drawablePadding="10dp"
+        android:hint="dd/mm/yyyy"
+        android:inputType="date"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:drawableLeft="@drawable/ic_baseline_date_range_24"
+        app:layout_constraintEnd_toEndOf="@+id/u_confirmpassword"
+        app:layout_constraintStart_toStartOf="@+id/u_confirmpassword"
+        app:layout_constraintTop_toBottomOf="@+id/u_confirmpassword" />
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/progressbar"
+        app:layout_constraintBottom_toTopOf="@+id/u_signupbtn"
+        app:layout_constraintEnd_toEndOf="@+id/u_birth"
+        app:layout_constraintStart_toStartOf="@+id/u_birth"
+        app:layout_constraintTop_toBottomOf="@+id/u_birth" />
+
+    <Button
+        android:id="@+id/u_signupbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button"
+        android:text="SingUp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/u_birth"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/u_birth"
+        app:layout_constraintTop_toBottomOf="@+id/u_birth" />
+
+    <TextView
+        android:id="@+id/AlredyHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="Already Have an Account?"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/u_signupbtn"
+        app:layout_constraintHorizontal_bias="0.346"
+        app:layout_constraintStart_toStartOf="@+id/u_signupbtn"
+        app:layout_constraintTop_toBottomOf="@+id/u_signupbtn" />
+
+    <TextView
+        android:id="@+id/userlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text="Login"
+        android:textColor="#2196F3"
+        android:textSize="16dp"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toEndOf="@+id/AlredyHaveAccount"
+        app:layout_constraintTop_toBottomOf="@+id/u_signupbtn" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
